@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="font-bold text-xl text-white">{siteConfig.name}</span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              {siteConfig.credentials}
+              {siteConfig.aboutPage.credentials}
             </p>
           </div>
 
